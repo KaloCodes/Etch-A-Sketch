@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3% 2%;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #908f8f;
+}
+
+button {
+    padding: 12px 8px;
+    background-color: #f9d9d9;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: #a29c9c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover {
+    background-color: #f6bfbf;
+}
+
+.sketch-area {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.34);
+    margin-top: 40px;
+}
+
+.cell {
+    border: 1px solid #a9a9a9;
+    border-radius: inherit;
+}
